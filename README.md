@@ -13,7 +13,9 @@ Just take two parameters:
 1. An IP address
 1. A name for the address above
 
-    > hosts-edit 192.168.1.1 my-router
+```
+> hosts-edit 192.168.1.1 my-router
+```
 
 ## Build to a executable file
 
