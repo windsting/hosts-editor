@@ -1,6 +1,6 @@
 {
     "name": "hosts-edit",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "A command line tool for editing \"hosts\" file.",
     "main": "index.js",
     "scripts": {
