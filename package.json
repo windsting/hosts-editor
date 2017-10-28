@@ -1,0 +1,19 @@
+{
+  "name": "hosts_editor",
+  "version": "0.1.0",
+  "description": "A command line tool for editing \"hosts\" file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "command-line",
+    "hosts",
+    "edit"
+  ],
+  "author": "windsting",
+  "license": "ISC",
+  "dependencies": {
+    "fs-sync": "^1.0.4"
+  }
+}
