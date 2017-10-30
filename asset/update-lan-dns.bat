@@ -38,7 +38,8 @@ if %errorlevel%==1 (
 REM Try install hosts-edit
 where hosts-edit
 if %errorlevel%==1 (
-  call npm install -g https://github.com/windsting/hosts-editor
+  REM call npm install -g https://github.com/windsting/hosts-editor
+  call npm install -g http://192.168.130.242:10080/wangg/hosts-edit.git
 )
 
 REM Check the installation for 'hosts-edit'
