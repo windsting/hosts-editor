@@ -56,3 +56,7 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# custom ignored files
+asset/entry_list.txt
+asset/node-v8.8.1-x64.msi
