@@ -27,7 +27,7 @@ if %errorlevel%==1 (echo.
 )
 
 REM Check the installation for 'npm'
-where %NPM%m
+where %NPM%
 if %errorlevel%==1 (
   echo %NPM% installation failed!
   echo Please install it manually: https://nodejs.org/en/download/
