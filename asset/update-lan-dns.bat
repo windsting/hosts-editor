@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 
 SET GitlabAddr=http://192.168.130.242:10080
 SET NodejsMsi=node-v8.8.1-x64.msi
-SET NodejsUrlBase=https://nodejs.org/dist/v8.8.1/
+SET NodejsUrlBase=http://192.168.8.173:8000/
 
 SET NodejsUrl='%NodejsUrlBase%%NodejsMsi%'
 SET NodejsMsiSave='%NodejsMsi%'
@@ -22,6 +22,7 @@ if %errorlevel%==1 (echo.
   echo Downloading %NodejsMsi%, please be patient...
   call:download %NodejsUrl% %NodejsMsiSave%
   call %NodejsMsi%
+  del %NodejsMsi%
   pause
   GOTO:eof
 )
@@ -39,7 +40,7 @@ REM Try install hosts-edit
 where hosts-edit
 if %errorlevel%==1 (
   REM call npm install -g https://github.com/windsting/hosts-editor
-  call npm install -g http://192.168.130.242:10080/wangg/hosts-edit.git
+  call npm install -g hosts-edit
 )
 
 REM Check the installation for 'hosts-edit'
@@ -51,7 +52,8 @@ if %errorlevel%==1 (
 )
 
 REM Download hosts entry list.
-set EntryListAddr='%GitlabAddr%/wangg/hosts-editor/raw/feature/quying-dns/asset/entry_list'
+set EntryListAddr='%GitlabAddr%/wangg/hosts-edit/raw/feature/quying-dns/asset/entry_list'
+echo %EntryListAddr%
 set SaveName='%CWD%\entry_list.txt'
 call:download %EntryListAddr% %SaveName%
 
@@ -59,6 +61,8 @@ REM add all entries into hosts
 for /F "tokens=*" %%A in (entry_list.txt) do (
    call hosts-edit %%A
 )
+
+del entry_list.txt
 
 echo.&pause&goto:eof
 
