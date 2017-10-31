@@ -66,12 +66,9 @@ del entry_list.txt
 
 call ping gitlab.quying.local
 if %errorlevel%==1 (echo.
-  echo.
-  echo.
-  echo.
+  echo.&echo.&echo.
   echo Run with the account of Administrator, again.
-  echo.
-  echo.
+  echo.&echo.
   pause
   GOTO:eof
 )
