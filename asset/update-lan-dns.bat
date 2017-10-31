@@ -64,6 +64,25 @@ for /F "tokens=*" %%A in (entry_list.txt) do (
 
 del entry_list.txt
 
+call ping gitlab.quying.local
+if %errorlevel%==1 (echo.
+  echo.
+  echo.
+  echo.
+  echo Run with the account of Administrator, again.
+  echo.
+  echo.
+  pause
+  GOTO:eof
+)
+
+echo.
+echo.
+echo.
+echo It's done, go access: http://gitlab.quying.local
+echo.
+echo.
+
 echo.&pause&goto:eof
 
 :: Functions definition below here
