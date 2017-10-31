@@ -2,7 +2,7 @@
 
 ## 64位 Windows7（含）以上的操作系统
 
-请下载 [update-lan-dns.bat](http://192.168.130.242:10080/wangg/hosts-edit/raw/feature/quying-dns/asset/update-lan-dns.bat)，右键 -> 以管理员身份运行(A)，可能需要运行多次，期间会出现一次 **NodeJS** 的安装，请同意，任何对权限的提示，一律允许。
+请下载 [update-lan-dns.bat](http://192.168.130.242:10080/wangg/hosts-edit/raw/feature/quying-dns/asset/update-lan-dns.bat)，打开所在目录，在下载得到的文件上：**右键 -> 以管理员身份运行(A)**，可能需要运行多次，期间会出现一次 **NodeJS** 的安装，请同意，任何对权限的提示，一律允许。
 
 看到下图的提示内容，表示安装成功，请访问： http://gitlab.quying.local
 
