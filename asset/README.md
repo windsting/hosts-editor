@@ -20,11 +20,23 @@
 1. 安装 `hosts-edit` ：
 
     ```shell
-    [windsting@qy ~]$ sudo npm install https://github.com/windsting/hosts-editor.git
-    [sudo] password for windsting:
-    /usr/bin/hosts-edit -> /usr/lib/node_modules/hosts-edit/index.js
-    /usr/lib
-    └── hosts-edit@0.1.2
+    cd
 
-    [windsting@qy ~]$
+    mkdir temp
+
+    cd temp
+
+    git clone https://github.com/windsting/hosts-editor.git
+
+    cd hosts-editor
+
+    sudo npm install -g
     ```
+
+1. 更新 hosts 条目：
+
+    ```shell
+    sudo hosts-edit 192.168.130.242 gitlab.quying.local
+    ```
+
+1. 如果以上步骤都没有报错，请访问： http://gitlab.quying.local
