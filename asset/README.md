@@ -9,7 +9,7 @@
 
 ![Succeed](update-lan-dns-succeed.jpg)
 
-## Linux、MacOSX 等系统 —— 请等待解决方案
+## Linux、MacOSX 等操作系统
 
 1. 请自行到 https://nodejs.org/en/download/current/ 安装系统适用的 NodeJS 版本，安装好后输入以下命令确认安装成功：
 
