@@ -11,7 +11,7 @@
 
 ## Linux、MacOSX 等操作系统
 
-1. 请自行到 https://nodejs.org/en/download/current/ 安装系统适用的 NodeJS 版本，安装好后输入以下命令确认安装成功：
+1. 请自行到 https://nodejs.org/en/download/ 安装系统适用的 NodeJS 版本，安装好后输入以下命令确认安装成功：
 
     ```shell
     npm -v
