@@ -1,7 +1,7 @@
 # 一键更新局域网 DNS
 
 ## 网址列表管理
-- 执行过一下对应操作系统的步骤后，请参考以下页面访问对应的服务  
+- 执行过对应操作系统的步骤后，请参考这个页面访问对应的服务  
   [内网网址大全](http://gitlab.quying.local/wangg/hosts-edit/blob/feature/quying-dns/asset/host_list.md)
 
 - 如果你在内网有一个服务器想通过此 DNS 工具进行管理，欢迎注册
