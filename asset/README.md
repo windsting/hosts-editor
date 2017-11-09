@@ -37,6 +37,8 @@
 
     cd hosts-editor
 
+    npm install
+
     sudo npm install -g
     ```
 
