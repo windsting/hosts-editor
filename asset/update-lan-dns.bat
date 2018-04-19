@@ -2,7 +2,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-SET GitlabAddr=http://192.168.130.242:10080
+SET GitlabAddr=http://192.168.8.65:10080
 SET NodejsMsi=node-v8.9.0-x64.msi
 SET NodejsUrlBase=http://192.168.8.173:8000/
 
