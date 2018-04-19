@@ -45,7 +45,7 @@
 1. 更新 hosts 条目：
 
     ```shell
-    sudo hosts-edit 192.168.130.242 gitlab.quying.local
+    sudo hosts-edit 192.168.8.65 gitlab.quying.local
     ```
 
 1. 如果以上步骤都没有报错，请访问： http://gitlab.quying.local
