@@ -13,7 +13,7 @@
 1. 在该文件上：**右键 -> 以管理员身份运行(A)**（如果期间出现 **NodeJS** 的安装，请同意，允许任何权限要求。）
 1. 重复步骤 **3**，看到下图的提示内容，表示安装成功，请访问： http://gitlab.quying.local
 
-![Succeed](update-lan-dns-succeed.jpg)
+![Succeed](update-lan-dns-succeed-marked.jpg)
 
 ## Linux、MacOSX 等操作系统
 
